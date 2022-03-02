@@ -30,7 +30,7 @@ export default function Distance({ leg }: DistanceProps) {
       </p>
 
       <p>
-        That's <span className='highlight'>{days} days</span> in your car each
+        That is <span className='highlight'>{days} days</span> in your car each
         year at a cost of <span className='highlight'>{costAccount}</span>
       </p>
     </div>

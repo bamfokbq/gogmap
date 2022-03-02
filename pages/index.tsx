@@ -4,8 +4,8 @@ import Map from '../components/map';
 
 export default function Home() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY,
-    libraries: process.env.LIBRARY_OPTIONS,
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+    libraries: process.env.NEXT_PUBLIC_LIBRARY_OPTIONS,
   });
 
   if (!isLoaded) {
